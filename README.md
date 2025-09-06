@@ -105,7 +105,7 @@ docker-compose up -d
 - 접속 URL: https://www.videofinding.com
 
 5. 회원가입 및 로그인
-AWS 서비스 기반으므로 크레딧 기반이 아닌 사용자가 원하는 만큼 사용가능!
+AWS 서비스 기반이므로 크레딧 기반이 아닌 사용자가 원하는 만큼 사용가능!
 
 ## 개발
 
