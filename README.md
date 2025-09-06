@@ -48,7 +48,7 @@ ClipHaus는 AWS 서비스와 AI 기술을 활용하여 비디오를 자동으로
 ### Infrastructure
 - **Docker**: 컨테이너화
 - **SAM (Serverless Application Model)**: AWS 서버리스 애플리케이션 배포
-- **CloudFormation**: 인프라스트럭처 as Code
+- **CloudFormation**: Infrastructure as Code
 
 ## 프로젝트 구조
 
