@@ -10,6 +10,14 @@ ClipHaus는 AWS 서비스와 Amazon Bedrock Flow를 활용하여 비디오를 �
 
 https://www.videofinding.com
 
+## 아키텍처
+
+![Architecture](./images/architecture.png)
+
+## Bedrock Flow
+
+![Bedrock Flow](./images/bedrock%20flow.png)
+
 ## 핵심 문제 해결
 
 ### 기존 영상 편집의 문제점
@@ -23,14 +31,6 @@ https://www.videofinding.com
 - **즉시 처리**: 자연어 요청 → 5-15분 내 완성된 숏츠 제공
 - **일관된 품질**: AI 기반 객관적 기준으로 항상 동일한 품질 보장
 - **원클릭 솔루션**: 복잡한 편집 없이 "골넣는 장면 숏츠 만들어줘" 한 문장으로 완료
-
-## 아키텍처
-
-![Architecture](./images/architecture.png)
-
-## Bedrock Flow
-
-![Bedrock Flow](./images/bedrock%20flow.png)
 
 ## 주요 기능
 
