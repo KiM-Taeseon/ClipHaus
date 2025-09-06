@@ -98,25 +98,11 @@ docker-compose up -d
 ```
 
 4. 서비스 접속
-- Frontend: http://localhost:5003
+- 접속 URL: https://www.videofinding.com
 - Bucket List API: http://localhost:5000
 - S3 Upload API: http://localhost:5001
 - Video AI API: http://localhost:5002
 - Sign Up/In API: http://localhost:5005
-
-### AWS 인프라 배포
-
-1. SAM CLI 설치
-```bash
-pip install aws-sam-cli
-```
-
-2. SAM 애플리케이션 배포
-```bash
-cd sam
-sam build
-sam deploy --guided
-```
 
 ## API 엔드포인트
 
@@ -160,11 +146,3 @@ python app.py
 - CORS 설정으로 허용된 도메인만 접근 가능
 - AWS IAM 역할 기반 권한 관리
 - 환경 변수를 통한 민감한 정보 관리
-
-## 라이선스
-
-이 프로젝트는 개인 프로젝트입니다.
-
-## 기여
-
-버그 리포트나 기능 제안은 GitHub Issues를 통해 제출해 주세요.
