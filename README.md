@@ -8,7 +8,11 @@ ClipHaus는 AWS 서비스와 AI 기술을 활용하여 비디오를 자동으로
 
 ## 아키텍처
 
-![Architecture](./images/architecture.md)
+![Architecture](./images/architecture.png)
+
+## Bedrock Flow
+
+![Bedrock Flow](./images/bedrock%20flow.png)
 
 ## 주요 기능
 
