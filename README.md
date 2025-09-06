@@ -99,28 +99,6 @@ docker-compose up -d
 
 4. 서비스 접속
 - 접속 URL: https://www.videofinding.com
-- Bucket List API: http://localhost:5000
-- S3 Upload API: http://localhost:5001
-- Video AI API: http://localhost:5002
-- Sign Up/In API: http://localhost:5005
-
-## API 엔드포인트
-
-### Bucket List Service (Port 5000)
-- `GET /api/bucket/bucketdata` - S3 버킷 파일 목록 조회
-- `DELETE /api/bucket/deletefile` - 파일 삭제
-- `GET /api/bucket/health` - 헬스체크
-
-### S3 Upload Service (Port 5001)
-- 파일 업로드 관련 API
-
-### Video AI Service (Port 5002)
-- `POST /api/video/video_ai` - AI 비디오 편집 요청
-- `GET /api/video/_debug/verify_flow` - Flow 상태 확인
-- `GET /api/video/health` - 헬스체크
-
-### Sign Up/In Service (Port 5005)
-- 사용자 인증 관련 API
 
 ## 개발
 
